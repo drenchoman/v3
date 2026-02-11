@@ -33,9 +33,9 @@
 }
 
 /* 2. Remove default margin */
-/* *:not(dialog) {
+*:not(dialog) {
   margin: 0;
-} */
+}
 
 /* 3. Enable keyword animations */
 @media (prefers-reduced-motion: no-preference) {
@@ -69,6 +69,24 @@ input, button, textarea, select {
   font: inherit;
 }
 
+/* default margin set after reset */
+h1{
+  margin:0.67em 0;
+}
+h2{
+  margin: 0.83em 0;
+}
+
+h3{
+  margin: 1em 0;
+}
+
+/* 9. Improve line wrapping */
+p {
+  text-wrap: pretty;
+  margin: 1em 0;
+}
+
 /* 8. Avoid text overflows */
 p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
@@ -76,10 +94,7 @@ p, h1, h2, h3, h4, h5, h6 {
   color: var(--heading-color);
 }
 
-/* 9. Improve line wrapping */
-p {
-  text-wrap: pretty;
-}
+
 h1, h2, h3, h4, h5, h6 {
   text-wrap: balance;
 }
