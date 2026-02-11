@@ -1,5 +1,6 @@
 ---
 import GlobalStyles from "../components/GlobalStyles.astro"
+import Header from "../components/Header.astro"
 ---
 <!doctype html>
 <html lang="en">
@@ -11,9 +12,11 @@ import GlobalStyles from "../components/GlobalStyles.astro"
 		<title>Oscar's Blog</title>
 	</head>
 	<body>
+      <GlobalStyles/>	
+    	<Header />
 		<slot />
 	</body>
 </html>
 
-<GlobalStyles/>	
+
 
