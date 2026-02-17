@@ -1,5 +1,4 @@
 ---
-layout: ../../../../layouts/Layout.astro
 title: 'First'
 pubDate: 11-02-2026
 description: 'This is the first post of my new site'

@@ -2,10 +2,18 @@
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 import Home from '../components/Home.astro'
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import { getCollection } from 'astro:content';
+
+const posts = await getCollection('posts');
 ---
 
 <Layout>
+  <h1>Posts</h1>
+  {posts.map(post => (
+    <li>
+      <a href={`posts/${post.id}`}>
+      <h2>{post.data.title}</h2></a>
+    </li>
+  ))}
   <Home />
 </Layout>
