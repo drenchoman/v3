@@ -1,0 +1,17 @@
+---
+import { render } from "astro:content";
+import Layout from "../layouts/Layout.astro";
+import { getCollection } from "astro:content";
+const [now] = await getCollection('now')
+const {Content} = await render(now)
+
+---
+
+<Layout
+  title={now.data.title}
+  description={now.data.description}
+>
+<h1>{now.data.title}</h1>
+<Content />
+  
+</Layout>

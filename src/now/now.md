@@ -1,6 +1,6 @@
 ---
-title: 'Now'
-pubDate: 24-02-2026
+title: 'What Im up to'
+pubDate: 02-24-2026
 description: 'What am I doing now'
 author: 'Oscar Harron'
 tags: ['blogging', 'lifestyle']
@@ -16,6 +16,7 @@ Less scrolling and more doing.
 
 I've been back at football pre-season training since the start of February.
 Training twice a week on Tuesday and Thursday for the mighty [Papatoetoe AFC](https://www.sporty.co.nz/papatoetoeafc).
+
 Also playing Futsal on Monday's for 'Oscar and Friends', you can check out the standings [here](https://footballfix.spawtz.com/Leagues/Standings?SportId=0&VenueId=39&LeagueId=258&SeasonId=93&DivisionId=6190).
 
 Been trying to run at least 5km a week and I am still continuing my walks during lunch, often with my son in his pram - he loves being in motion.
