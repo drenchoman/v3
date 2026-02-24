@@ -8,12 +8,12 @@ const posts = await getCollection('posts');
 ---
 
 <Layout>
-  <h1>Posts</h1>
-  {posts.map(post => (
+  <Home>
+    {posts.map(post => (
     <li>
       <a href={`posts/${post.id}`}>
-      <h2>{post.data.title}</h2></a>
+      {post.data.title}</a>
     </li>
   ))}
-  <Home />
+  </Home>
 </Layout>
