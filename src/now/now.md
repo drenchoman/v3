@@ -12,7 +12,7 @@ This has made me realise how precious time is. So if I get an opportunity to do 
 
 Less scrolling and more doing.
 
-## Fitness
+## Training
 
 I've been back at football pre-season training since the start of February.
 Training twice a week on Tuesday and Thursday for the mighty [Papatoetoe AFC](https://www.sporty.co.nz/papatoetoeafc).
