@@ -6,8 +6,6 @@ author: 'Oscar Harron'
 tags: ['blogging', 'lifestyle']
 ---
 
-# My First Post
-
 Checkout the comments section of a freshly posted Youtube video and you are bound to see a comment saying 'first!'.
 
 That's me right now.
