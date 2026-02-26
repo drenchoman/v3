@@ -1,0 +1,28 @@
+---
+import type { GetStaticPaths } from "astro";
+import Layout from "../layouts/Layout.astro";
+import { getCollection } from "astro:content";
+
+  const posts = await getCollection('posts')
+
+  console.log(posts)
+
+
+// const {post} = Astro.props;
+// const date = new Date(post.data.pubDate);
+// const formattedDate = date.toLocaleDateString('en-GB',{
+//   day: '2-digit',
+//   month:'long',
+//   year :'numeric'
+// }); 
+---
+
+<Layout>
+  <h1>All Posts</h1>
+  <ul>
+    <li>
+      <!-- <time>{formattedDate}</time>
+      <a href={`posts/${post.id}`}>{post.data.title}</a> -->
+    </li>
+  </ul>
+</Layout>
