@@ -1,6 +1,6 @@
 ---
 title: 'First'
-pubDate: 11-02-2026
+pubDate: 02-11-2026
 description: 'This is the first post of my new site'
 author: 'Oscar Harron'
 tags: ['blogging', 'lifestyle']
