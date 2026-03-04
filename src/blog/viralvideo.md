@@ -1,6 +1,6 @@
 ---
 title: 'A Viral Video'
-pubDate: 03-04-2026
+pubDate: 2026-03-04
 description: 'I discover how the internet works.'
 author: 'Oscar Harron'
 tags: ['blogging', 'vlogging', 'video']
