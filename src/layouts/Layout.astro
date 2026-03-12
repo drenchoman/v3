@@ -7,6 +7,7 @@ const {title = "Oscar's Blog", description = "My first blog lol"} = Astro.props
 
 import GlobalStyles from "../components/GlobalStyles.astro"
 import Header from "../components/Header.astro"
+import Footer from "../components/Footer.astro";
 ---
 <!doctype html>
 <html lang="en">
@@ -20,9 +21,11 @@ import Header from "../components/Header.astro"
     <script defer src="https://cloud.umami.is/script.js" data-website-id="404443e2-7337-407e-aad1-5bc9a3d6e3e8"></script>
 	</head>
 	<body>
-      <GlobalStyles/>	
-    	<Header />
+    <GlobalStyles/>	
+    <Header />
 		<slot />
+    <Footer />
+
 	</body>
 </html>
 
