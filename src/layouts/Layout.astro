@@ -3,7 +3,7 @@ interface Props {
   title?: string;
   description?: string;
 }
-const {title = "Oscar's Blog", description = "My first blog lol"} = Astro.props
+const {title = "O Town- Oscar's Blog", description = "The personal site and blog of Oscar Harron"} = Astro.props
 
 import GlobalStyles from "../components/GlobalStyles.astro"
 import Header from "../components/Header.astro"
@@ -17,6 +17,12 @@ import Footer from "../components/Footer.astro";
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="O Town- Oscar's Blog"
+      href={new URL("rss.xml", Astro.site)}
+    />
     <meta name="description" content={description}>
     <script defer src="https://cloud.umami.is/script.js" data-website-id="404443e2-7337-407e-aad1-5bc9a3d6e3e8"></script>
 	</head>
