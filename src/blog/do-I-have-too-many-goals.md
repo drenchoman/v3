@@ -1,5 +1,5 @@
 ---
-title: 'Do I have too many goals?
+title: 'Do I have too many goals?'
 pubDate: 2026-03-28
 description: 'Is it better to focus on one goal, achieve it, and then move on to the next goal?'
 author: 'Oscar Harron'
