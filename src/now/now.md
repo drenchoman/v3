@@ -1,5 +1,5 @@
 ---
-title: 'What Im up to'
+title: "What I'm up to"
 pubDate: 03-19-2026
 description: 'What am I doing now'
 author: 'Oscar Harron'
