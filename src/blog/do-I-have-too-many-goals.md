@@ -10,7 +10,7 @@ Do I have too many goals?
 
 Is it better to focus on one goal, achieve it, and then move on to the next goal?
 
-I have many long term goal and some of them feel like they could take a long time to achieve.
+I have many long term goals and some of them feel like they could take a long time to achieve.
 
 Sometimes I think it is better to be more direct and go for one goal with great focus rather than try to achieve many at once.
 
